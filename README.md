@@ -51,3 +51,11 @@ python mnist_autoencoder.py
 ```bash
 python imdb_sentiment_classifier.py
 ```
+
+## LSTM time series forecast
+
+`lstm_time_series_forecast.py` creates a reproducible noisy sine wave, trains an LSTM on its first 80%, and plots training loss and predictions against held-out values. The scaler is fitted on the training segment only.
+
+```bash
+python lstm_time_series_forecast.py
+```
