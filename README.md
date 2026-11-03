@@ -35,3 +35,11 @@ python iris_dnn_classifier.py
 ```bash
 python mnist_cnn_classifier.py
 ```
+
+## MNIST autoencoder
+
+`mnist_autoencoder.py` trains a small autoencoder to compress each 28 × 28 digit image into 32 values and reconstruct it. It plots five original/reconstructed image pairs and prints the original and compressed array shapes. TensorFlow downloads MNIST on the first run.
+
+```bash
+python mnist_autoencoder.py
+```
