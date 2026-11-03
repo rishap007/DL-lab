@@ -67,3 +67,11 @@ python lstm_time_series_forecast.py
 ```bash
 python cifar10_mobilenet_transfer_learning.py
 ```
+
+## TF-IDF review sentiment
+
+`tfidf_sentiment_classifier.py` trains logistic regression on a small labeled review sample using TF-IDF text features, prints held-out accuracy, and predicts sentiment for three new reviews. The sample is for demonstration; its small size is not suitable for reliable real-world sentiment analysis.
+
+```bash
+python tfidf_sentiment_classifier.py
+```
