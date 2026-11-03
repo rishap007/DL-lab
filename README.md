@@ -43,3 +43,11 @@ python mnist_cnn_classifier.py
 ```bash
 python mnist_autoencoder.py
 ```
+
+## IMDB sentiment classifier
+
+`imdb_sentiment_classifier.py` trains an embedding-based model on the IMDB movie review dataset, evaluates positive/negative sentiment accuracy, and classifies the first five test reviews. TensorFlow downloads the dataset on the first run.
+
+```bash
+python imdb_sentiment_classifier.py
+```
