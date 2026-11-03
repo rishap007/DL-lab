@@ -59,3 +59,11 @@ python imdb_sentiment_classifier.py
 ```bash
 python lstm_time_series_forecast.py
 ```
+
+## CIFAR-10 transfer learning
+
+`cifar10_mobilenet_transfer_learning.py` trains a small classification head on frozen ImageNet MobileNetV2 features, evaluates CIFAR-10 accuracy, predicts one test image, and plots training/validation accuracy. Images are resized and normalized in batches. TensorFlow downloads CIFAR-10 and the pretrained ImageNet weights on the first run.
+
+```bash
+python cifar10_mobilenet_transfer_learning.py
+```
