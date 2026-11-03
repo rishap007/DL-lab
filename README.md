@@ -27,3 +27,11 @@ python word2vec_embeddings.py
 ```bash
 python iris_dnn_classifier.py
 ```
+
+## MNIST convolutional neural network
+
+`mnist_cnn_classifier.py` trains a convolutional neural network on handwritten digit images, evaluates it on the MNIST test set, and prints predictions for the first ten test images. TensorFlow downloads the MNIST data on the first run.
+
+```bash
+python mnist_cnn_classifier.py
+```
